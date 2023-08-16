@@ -8,10 +8,13 @@
 body {
   font-family: Poppins;
 }
-
+.navbar{
+  background-color: #F2F4F6 !important;
+}
 .intro {
   height: 600px;
-  background-color: aliceblue;
+  background-color: #204849;
+  color: aliceblue;
   display: flex;
 flex-direction: column;
 justify-content: center;
@@ -33,16 +36,22 @@ align-items: center;
     border-radius: 50%;
 }
 .name {
-  color: rgb(240, 36, 0);
+  color: aquamarine;
 }
-.about{
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    background-color:rgba(133, 242, 246, 0.301);
+#contact,#skills,#about-me{
+ 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: rgba(133, 242, 246, 0.301);
+    padding-bottom: 20px;
+
+}
+.about{
+    padding: 40px;
+    background-color:rgba(133, 242, 246, 0.301);
+ 
 }
 .side-heading{
         font-size: 60px;
@@ -53,8 +62,7 @@ align-items: center;
 .about-para{
     font-size: 18px;
     font-weight: 20px;
-    background-color: #204849;
-    color: white;
+   
     padding: 20px;
 }
 .about-img-col{
@@ -64,16 +72,59 @@ align-items: center;
 .about-img{
     width: 80%;
 }
-#skills{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(133, 242, 246, 0.301);
-}
+
 
 .tech-icon{
   width: 80px;
   margin:50px  20px;
   
+}
+.contact-icons{
+  width: 60px;
+}
+.contact-icon-way>a{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ margin-bottom: 20px;
+ text-decoration: none;
+ color: black;
+}
+.contact-icon-way>a:hover{
+  color: #204849;
+}
+.contact-icon-way>a>img{
+  margin-right: 10px ;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-t{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.inputs{
+  margin-bottom: 10px;
+border: 2px solid #204849;
+padding: 5px;
+
+
+}
+.button{
+  padding: 10px 20px;
+  background-color:#204849 ;
+  color: aliceblue;
+font-size: 15px;
+font-weight: bold;
+letter-spacing: 1px;
+border: 1px solid aliceblue;
+border-radius: 5%;
+}
+.button:hover{
+  color: #204849;
+  background-color: aliceblue;
+  border: 1px solid #204849;
 }
