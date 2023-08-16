@@ -11,6 +11,14 @@ body {
 .navbar{
   background-color: #F2F4F6 !important;
 }
+.nav-link{
+  color: #204849;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-link:hover{
+
+}
 .intro {
   height: 600px;
   background-color: #204849;
@@ -37,6 +45,19 @@ align-items: center;
 }
 .name {
   color: aquamarine;
+}
+.resume-btn{
+  padding: 10px 20px;
+  margin: 5px;
+  color: #204849;
+  background-color: aquamarine;
+  border: 2px slategrey;
+  border-radius: 5%;
+}
+.resume-btn:hover{
+  cursor: pointer;
+  background-color: rgba(106, 239, 244, 0.366);
+  color: antiquewhite;
 }
 #contact,#skills,#about-me{
  
@@ -91,6 +112,7 @@ align-items: center;
  color: black;
 }
 .contact-icon-way>a:hover{
+  cursor: pointer;
   color: #204849;
 }
 .contact-icon-way>a>img{
@@ -124,6 +146,7 @@ border: 1px solid aliceblue;
 border-radius: 5%;
 }
 .button:hover{
+  cursor: pointer;
   color: #204849;
   background-color: aliceblue;
   border: 1px solid #204849;
