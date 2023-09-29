@@ -16,6 +16,9 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+.navbar>.navbar-brand>.logo-img{
+  width:"200px" ;
+}
 .intro {
   height: 600px;
   background-color: #204849;
@@ -74,13 +77,13 @@ align-items: center;
  
 }
 .side-heading{
-        font-size:clamp(25px,10vh,60px);
+        font-size:clamp(30px,6vh,40px);
         font-weight: bold;
         margin-bottom:20px ;
 }
 
 .about-para{
-    font-size: 18px;
+    font-size: clamp(5px,6vh,18px);
     font-weight: 20px;
    
     padding: 20px;
@@ -123,7 +126,7 @@ align-items: center;
   justify-content: center;
 }
 .contact-t{
-  font-size: clamp(5px,10vh,15px);
+  font-size: clamp(6px,6vh,12px);
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -151,7 +154,7 @@ border-radius: 5%;
   border: 1px solid #204849;
 }
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 468px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
@@ -173,5 +176,22 @@ padding-left: 0%;
     width: 40%;
     border: 20px solid rgba(106, 239, 244, 0.366);
     border-radius: 50%;
+  }
+  .about{
+    padding: 10px;
+  }
+  .contact-icons{
+    width: 40px;
+  }
+  .tech-icon{
+    width: 20%;
+    margin: 5px;
+    
+  }
+  .tech-stack-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 } 
